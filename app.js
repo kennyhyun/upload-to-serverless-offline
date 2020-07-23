@@ -17,6 +17,7 @@ app.post(
     const { file } = req;
     console.log(`File uploaded; ${ file && file.originalname }`);
     console.dir(file, req);
+    res.send(`File uploaded; ${ file && file.originalname }`);
   }
 );
 
