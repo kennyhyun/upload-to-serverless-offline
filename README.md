@@ -12,7 +12,7 @@ Rarely, if the payload is relatively small and should be converted/processed bef
 
 This is an example for uploading binary file using multipart/fom-data
 
-BTW, API Gateway added supports binary media type. (https://aws.amazon.com/about-aws/whats-new/2016/11/binary-data-now-supported-by-api-gateway/)
+BTW, API Gateway added supports for binary media type. (https://aws.amazon.com/about-aws/whats-new/2016/11/binary-data-now-supported-by-api-gateway/)
 
 ## Serverless offline http proxy
 
@@ -25,7 +25,7 @@ $ npm i && npm start
 ### Httpie(https://httpie.org/)
 
 ```
-$ http -vF POST localhost:3000/serverless-http/upload file@"./image1.png"
+$ http -vf POST localhost:3000/serverless-http/upload file@"./image1.png"
 ```
 
 ![image1](https://raw.githubusercontent.com/kennyhyun/upload-to-serverless-offline/master/image1.png)
