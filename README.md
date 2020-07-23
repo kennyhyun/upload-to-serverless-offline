@@ -28,11 +28,15 @@ $ npm i && npm start
 $ http -vF POST localhost:3000/serverless-http/upload file@"./image1.png"
 ```
 
+![image1](https://raw.githubusercontent.com/kennyhyun/upload-to-serverless-offline/master/image1.png)
+
 ### curl
 
 ```
 $ curl -v localhost:3000/dev/serverless-http/upload -F "file=@./image1.png"
 ```
+
+![image1](https://raw.githubusercontent.com/kennyhyun/upload-to-serverless-offline/master/image2.png)
 
 ## Enable API Gateway binary support
 
