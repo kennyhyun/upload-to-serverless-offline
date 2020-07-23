@@ -25,7 +25,7 @@ $ npm i && npm start
 ### Httpie(https://httpie.org/)
 
 ```
-$ http -vf POST localhost:3000/serverless-http/upload file@"./image1.png"
+$ http -vf POST localhost:3000/dev/serverless-http/upload file@"./image1.png"
 ```
 
 ![image1](https://raw.githubusercontent.com/kennyhyun/upload-to-serverless-offline/master/image1.png)
