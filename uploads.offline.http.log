@@ -1,0 +1,125 @@
+offline: Starting Offline: dev/us-east-1.
+offline: Offline [http for lambda] listening on http://localhost:3002
+
+   ┌──────────────────────────────────────────────────────────────────────────────────────┐
+   │                                                                                      │
+   │   ANY | http://localhost:3000/dev/serverless-http/{proxy*}                           │
+   │   POST | http://localhost:3000/2015-03-31/functions/serverless-http/invocations      │
+   │   ANY | http://localhost:3000/dev/serverless-express/{proxy*}                        │
+   │   POST | http://localhost:3000/2015-03-31/functions/serverless-express/invocations   │
+   │                                                                                      │
+   └──────────────────────────────────────────────────────────────────────────────────────┘
+
+offline: [HTTP] server ready: http://localhost:3000 🚀
+offline: 
+offline: Enter "rp" to replay the last request
+
+offline: ANY /dev/serverless-http/upload (λ: serverless-http)
+serverlessHttp: {
+  body: '--a3ac5806882d3d67537cc3bf9ab59ab0\r\n' +
+    'Content-Disposition: form-data; name="file"; filename="black.jpg"\r\n' +
+    'Content-Type: image/jpeg\r\n' +
+    '\r\n' +
+    `ÿØÿá\u000baExif\u0000\u0000MM\u0000*\u0000\u0000\u0000\b\u0000\t\u0001\u000f\u0000\u0002\u0000\u0000\u0000\u0007\u0000\u0000\u0000z\u0001\u0010\u0000\u0002\u0000\u0000\u0000\t\u0000\u0000\u0000\u0001\u001a\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u001b\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001(\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0002\u0000\u0000\u00012\u0000\u0002\u0000\u0000\u0000\u0014\u0000\u0000\u0000\u0002\u0013\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000i\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000°%\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0002\u0000\u0000\u0003Xiaomi\u0000«Redmi 4A\u0000à\u0000\u0000\u0000H\u0000\u0000\u0000\u0001\u0000\u0000\u0000H\u0000\u0000\u0000\u00012017:01:10 19:48:45\u0000\u0000\u001c\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0002\u0006\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0002\u000e"\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000'\u0000\u0003\u0000\u0000\u0000\u0001\f\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u00040220\u0003\u0000\u0002\u0000\u0000\u0000\u0014\u0000\u0000\u0002\u0016\u0004\u0000\u0002\u0000\u0000\u0000\u0014\u0000\u0000\u0002*\u0001\u0000\u0007\u0000\u0000\u0000\u0004\u0001\u0002\u0003\u0000\u0001\u0000\n` +
+    '\u0000\u0000\u0000\u0001\u0000\u0000\u0002>\u0002\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0002F\u0003\u0000\n' +
+
+...
+
+    'iRi(\u0006\u0014àx¤4\n' +
+    '\u0004\u0006)äQ@\r\u0014þÔÞüRÐ\u0002\u0013Fi(Å\u00008\u001aSgJ\\Ð\u0002ÑIFh\u0010áÓ4¨É¤\u0003\u0014Ss@ÇQnsN\u0014(&­\u001biÑKRbAH\r)£\u0014\u0012.i)\u0005(¤\u00012("m0\n' +
+    'Z>´P\u0001QQKÚÆoZq¤¦0\u0002e;w\u0014\u0000\u0011M"Ô\u001eh\u0000\u0014ìShÍ\u0004Å! sE\u0003\u0012QxZ\u0004 \u0014´¤b\u0000\t£4@\u0006i{Rbð*@ZuD\rH\r\u0003¸½©´ìñL4î\u0001Zh§­!\u000e\u000bHÕ/\u0018¨XÓ(m=E4R\u0000q\u0014RÅ0Ð Í\u0014éiozwj\u0000¥Å\u0000 ¥4\u0001A\u0014Jw¹¦KëH\u0000úÓGZu34\u0000üRb\u001e(9 \u0004¢\u0000 \u0002¸ \u0000J\\ÒR\u0003Lcè¥ê)§ÒÅ¢C@\u000bQQi \u0010ÓM<aàÓ\u0000 sGlÒ©¤Ä.Ú\\RÑHc1INÍ\u0006\u001bj\\QºP!OÆi6Ò\u000b\tKÅ!âb\u001d»ni(éJãCóÅ\u0014Ðiø ¤8\fÒô\u0014Õ§6(\u0018ÃÍ&)qGj\u0004Àw§d\n' +
+    'fi{S\u0010ih\u0002\u001f\u0000&{RûÐ\u0006O\u0014\u001e(\u0010Úm=4\fÐ ¥\u0019\u0014b·µ+\n' +
+    'p8¦QÖvì(Æ(íL\u0004§ö¦\u001e>´»ªÿÙ\r\n' +
+    '--a3ac5806882d3d67537cc3bf9ab59ab0--\r\n',
+  headers: {
+    Host: 'localhost:3000',
+    'User-Agent': 'HTTPie/0.9.8',
+    'Accept-Encoding': 'gzip, deflate',
+    Accept: '*/*',
+    Connection: 'keep-alive',
+    'Content-Length': '319150',
+    'Content-Type': 'multipart/form-data; boundary=a3ac5806882d3d67537cc3bf9ab59ab0'
+  },
+  httpMethod: 'POST',
+  isBase64Encoded: false,
+  multiValueHeaders: {
+    Host: [ 'localhost:3000' ],
+    'User-Agent': [ 'HTTPie/0.9.8' ],
+    'Accept-Encoding': [ 'gzip, deflate' ],
+    Accept: [ '*/*' ],
+    Connection: [ 'keep-alive' ],
+    'Content-Length': [ '319150' ],
+    'Content-Type': [
+      'multipart/form-data; boundary=a3ac5806882d3d67537cc3bf9ab59ab0'
+    ]
+  },
+  multiValueQueryStringParameters: null,
+  path: '/serverless-http/upload',
+  pathParameters: { proxy: 'upload' },
+  queryStringParameters: null,
+  requestContext: {
+    accountId: 'offlineContext_accountId',
+    apiId: 'offlineContext_apiId',
+    authorizer: {
+      claims: undefined,
+      scopes: undefined,
+      principalId: 'offlineContext_authorizer_principalId'
+    },
+    domainName: 'offlineContext_domainName',
+    domainPrefix: 'offlineContext_domainPrefix',
+    extendedRequestId: 'ckd08t25h0000a8zc8ts601ke',
+    httpMethod: 'POST',
+    identity: {
+      accessKey: null,
+      accountId: 'offlineContext_accountId',
+      apiKey: 'offlineContext_apiKey',
+      caller: 'offlineContext_caller',
+      cognitoAuthenticationProvider: 'offlineContext_cognitoAuthenticationProvider',
+      cognitoAuthenticationType: 'offlineContext_cognitoAuthenticationType',
+      cognitoIdentityId: 'offlineContext_cognitoIdentityId',
+      cognitoIdentityPoolId: 'offlineContext_cognitoIdentityPoolId',
+      principalOrgId: null,
+      sourceIp: '127.0.0.1',
+      user: 'offlineContext_user',
+      userAgent: 'HTTPie/0.9.8',
+      userArn: 'offlineContext_userArn'
+    },
+    path: '/serverless-http/upload',
+    protocol: 'HTTP/1.1',
+    requestId: 'ckd08t25h0001a8zc28v1dggw',
+    requestTime: '24/Jul/2020:23:10:45 +1000',
+    requestTimeEpoch: 1595596245018,
+    resourceId: 'offlineContext_resourceId',
+    resourcePath: '/dev/serverless-http/{proxy*}',
+    stage: 'dev'
+  },
+  resource: '/dev/serverless-http/{proxy*}',
+  stageVariables: null
+} {
+  awsRequestId: 'ckd08t25i0002a8zc5ahebc64',
+  callbackWaitsForEmptyEventLoop: true,
+  clientContext: null,
+  functionName: 'upload-to-serverless-offline-2-dev-serverless-http',
+  functionVersion: '$LATEST',
+  identity: undefined,
+  invokedFunctionArn: 'offline_invokedFunctionArn_for_upload-to-serverless-offline-2-dev-serverless-http',
+  logGroupName: 'offline_logGroupName_for_upload-to-serverless-offline-2-dev-serverless-http',
+  logStreamName: 'offline_logStreamName_for_upload-to-serverless-offline-2-dev-serverless-http',
+  memoryLimitInMB: '1024',
+  getRemainingTimeInMillis: [Function: getRemainingTimeInMillis],
+  done: [Function: done],
+  fail: [Function: fail],
+  succeed: [Function: succeed]
+}
+File uploaded; black.jpg
+{
+  fieldname: 'file',
+  originalname: 'black.jpg',
+  encoding: '7bit',
+  mimetype: 'image/jpeg',
+  destination: '/tmp',
+  filename: '187f44093bfcd57acf232b1ab81b3114',
+  path: '/tmp/187f44093bfcd57acf232b1ab81b3114',
+  size: 435002
+}
+offline: (λ: serverless-http) RequestId: ckd08t25i0002a8zc5ahebc64  Duration: 148.24 ms  Billed Duration: 200 ms
