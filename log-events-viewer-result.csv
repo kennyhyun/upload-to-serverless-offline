@@ -1,0 +1,131 @@
+timestamp,message
+1595654204181,"START RequestId: 8b2c884f-792a-4cf1-a4c4-9fc96cf07d0b Version: $LATEST
+"
+1595654204346,"2020-07-25T05:16:44.324Z	8b2c884f-792a-4cf1-a4c4-9fc96cf07d0b	INFO	serverlessExpress: {
+  resource: '/serverless-express/{proxy+}',
+  path: '/serverless-express/upload',
+  httpMethod: 'POST',
+  headers: {
+    Accept: '*/*',
+    'Accept-Encoding': 'gzip, deflate',
+    'CloudFront-Forwarded-Proto': 'https',
+    'CloudFront-Is-Desktop-Viewer': 'true',
+    'CloudFront-Is-Mobile-Viewer': 'false',
+    'CloudFront-Is-SmartTV-Viewer': 'false',
+    'CloudFront-Is-Tablet-Viewer': 'false',
+    'CloudFront-Viewer-Country': 'AU',
+    'Content-Type': 'multipart/form-data; boundary=ee20fa0de97dacf686d98a57f39428ea',
+    Host: '5jgki4qjn7.execute-api.us-east-1.amazonaws.com',
+    'User-Agent': 'HTTPie/0.9.8',
+    Via: '1.1 7c4c2286abc7fc5145c880b21a28bb47.cloudfront.net (CloudFront)',
+    'X-Amz-Cf-Id': 'gzrOdv-mDVLtHtBo3jqwZCHBXHIEK86THjl5v2CIVDjtOkNVZL9urg==',
+    'X-Amzn-Trace-Id': 'Root=1-5f1bc03a-65a00680db3ab5004af8d1a0',
+    'X-Forwarded-For': '220.245.23.88, 70.132.29.48',
+    'X-Forwarded-Port': '443',
+    'X-Forwarded-Proto': 'https'
+  },
+  multiValueHeaders: {
+    Accept: [ '*/*' ],
+    'Accept-Encoding': [ 'gzip, deflate' ],
+    'CloudFront-Forwarded-Proto': [ 'https' ],
+    'CloudFront-Is-Desktop-Viewer': [ 'true' ],
+    'CloudFront-Is-Mobile-Viewer': [ 'false' ],
+    'CloudFront-Is-SmartTV-Viewer': [ 'false' ],
+    'CloudFront-Is-Tablet-Viewer': [ 'false' ],
+    'CloudFront-Viewer-Country': [ 'AU' ],
+    'Content-Type': [
+      'multipart/form-data; boundary=ee20fa0de97dacf686d98a57f39428ea'
+    ],
+    Host: [ '5jgki4qjn7.execute-api.us-east-1.amazonaws.com' ],
+    'User-Agent': [ 'HTTPie/0.9.8' ],
+    Via: [
+      '1.1 7c4c2286abc7fc5145c880b21a28bb47.cloudfront.net (CloudFront)'
+    ],
+    'X-Amz-Cf-Id': [ 'gzrOdv-mDVLtHtBo3jqwZCHBXHIEK86THjl5v2CIVDjtOkNVZL9urg==' ],
+    'X-Amzn-Trace-Id': [ 'Root=1-5f1bc03a-65a00680db3ab5004af8d1a0' ],
+    'X-Forwarded-For': [ '220.245.23.88, 70.132.29.48' ],
+    'X-Forwarded-Port': [ '443' ],
+    'X-Forwarded-Proto': [ 'https' ]
+  },
+  queryStringParameters: null,
+  multiValueQueryStringParameters: null,
+  pathParameters: { proxy: 'upload' },
+  stageVariables: null,
+  requestContext: {
+    resourceId: 'f31w5q',
+    resourcePath: '/serverless-express/{proxy+}',
+    httpMethod: 'POST',
+    extendedRequestId: 'QNr5UGoHoAMFm7g=',
+    requestTime: '25/Jul/2020:05:16:43 +0000',
+    path: '/dev/serverless-express/upload',
+    accountId: '518815385770',
+    protocol: 'HTTP/1.1',
+    stage: 'dev',
+    domainPrefix: '5jgki4qjn7',
+    requestTimeEpoch: 1595654203569,
+    requestId: '3748dc55-65d9-48b6-a236-7a305a1ca207',
+    identity: {
+      cognitoIdentityPoolId: null,
+      accountId: null,
+      cognitoIdentityId: null,
+      caller: null,
+      sourceIp: '220.245.23.88',
+      principalOrgId: null,
+      accessKey: null,
+      cognitoAuthenticationType: null,
+      cognitoAuthenticationProvider: null,
+      userArn: null,
+      userAgent: 'HTTPie/0.9.8',
+      user: null
+    },
+    domainName: '5jgki4qjn7.execute-api.us-east-1.amazonaws.com',
+    apiId: '5jgki4qjn7'
+  },
+  body: '--ee20fa0de97dacf686d98a57f39428ea\r
+' +
+    'Content-Disposition: form-data; name=""file""; filename=""black.jpg""\r
+' +
+    'Content-Type: image/jpeg\r
+' +
+    '\r
+' +
+    `����\u000baExif\u0000\u0000MM\u0000*\u0000\u0000\u0000\b\u0000\t\u0001\u000f\u0000\u0002\u0000\u0000\u0000\u0007\u0000\u0000\u0000z\u0001\u0010\u0000\u0002\u0000\u0000\u0000\t\u0000\u0000\u0000�\u0001\u001a\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0000�\u0001\u001b\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0000�\u0001(\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0002\u0000\u0000\u00012\u0000\u0002\u0000\u0000\u0000\u0014\u0000\u0000\u0000�\u0002\u0013\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000�i\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000��%\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0002�\u0000\u0000\u0003�Xiaomi\u0000�Redmi 4A\u0000�\u0000\u0000\u0000H\u0000\u0000\u0000\u0001\u0000\u0000\u0000H\u0000\u0000\u0000\u00012017:01:10 19:48:45\u0000\u0000\u001c��\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0002\u0006��\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0002\u000e�""\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000�'\u0000\u0003\u0000\u0000\u0000\u0001\f�\u0000\u0000�\u0000\u0000\u0007\u0000\u0000\u0000\u00040220�\u0003\u0000\u0002\u0000\u0000\u0000\u0014\u0000\u0000\u0002\u0016�\u0004\u0000\u0002\u0000\u0000\u0000\u0014\u0000\u0000\u0002*�\u0001\u0000\u0007\u0000\u0000\u0000\u0004\u0001\u0002\u0003\u0000�\u0001\u0000
+` +
+    '\u0000\u0000\u0000\u0001\u0000\u0000\u0002>�\u0002\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0002F�\u0003\u0000
+
+...
+
+    'i��Ri(\u0006\u0014�x�4
+' +
+    '\u0004\u0006�)�Q@\r\u0014����R�\u0002\u0013Fi(�\u00008\u001aS�gJ\\�\u0002�IFh\u0010��4���ɤ\u0003�\u0014�Ss@�Q�nsN\u0014�(&��\u001bi���K�Rb�AH\r)�\u0014\u0012.i)\u0005(�\u0001�2(""�m0
+' +
+    'Z>�P\u0001�Q�QKڐƚoZq��0\u0002��e;w\u0014\u0000\u0011M""��\u001eh\u0000\u0014�Sh�\u0004��!�sE\u0003\u0012�Q�xZ\u0004 \u0014��b��\u0000\t�4��@\u0006i{Rb��*@ZuD\rH\r\u0003������L4�\u0001�Zh��!\u000e\u000bH�/\u0018�X�(m=E4R��\u0000q\u0014�R��0� �\u0014��i�ozwj\u0000��\u0000 �4\u0001A\u0014�Jw���K�H\u0000��GZu34\u0000�Rb�\u001e(9�\u0004��\u0000�\u0002�����\u0000J\\�R\u0003Lc��)�ҘŢ�C@\u000b�QQ��i�\u0010�M<�a��\u0000�sGlҩ��.�\\R�Hc1IN�\u0006�\u001b�j\\Q��P!��O�i6�\u000b\tK�!�b\u001d��ni(�J�C��\u0014�i���8\f��\u0014է6(\u0018��&)qGj\u0004�w�d
+' +
+    'fi{S\u0010�ih\u0002�\u001f�\u0000&{R��\u0006O\u0014\u001e(\u0010�m=�4\f� �\u0019\u0014b���+�
+' +
+    'p8�Q֋�v�(�(�L\u0004���\u001e>�������\r
+' +
+    '--ee20fa0de97dacf686d98a57f39428ea--\r
+',
+  isBase64Encoded: false
+} {
+  callbackWaitsForEmptyEventLoop: [Getter/Setter],
+  succeed: [Function],
+  fail: [Function],
+  done: [Function],
+  functionVersion: '$LATEST',
+  functionName: 'upload-to-serverless-offline-kenny-dev-serverless-express',
+  memoryLimitInMB: '1024',
+  logGroupName: '/aws/lambda/upload-to-serverless-offline-kenny-dev-serverless-express',
+  logStreamName: '2020/07/25/[$LATEST]55bb200bb077417b95d81bc7b46fec51',
+  clientContext: undefined,
+  identity: undefined,
+  invokedFunctionArn: 'arn:aws:lambda:us-east-1:518815385770:function:upload-to-serverless-offline-kenny-dev-serverless-express',
+  awsRequestId: '8b2c884f-792a-4cf1-a4c4-9fc96cf07d0b',
+  getRemainingTimeInMillis: [Function: getRemainingTimeInMillis]
+}
+"
+1595654204427,"END RequestId: 8b2c884f-792a-4cf1-a4c4-9fc96cf07d0b
+"
+1595654204427,"REPORT RequestId: 8b2c884f-792a-4cf1-a4c4-9fc96cf07d0b	Duration: 244.42 ms	Billed Duration: 300 ms	Memory Size: 1024 MB	Max Memory Used: 99 MB	Init Duration: 374.97 ms	
+"

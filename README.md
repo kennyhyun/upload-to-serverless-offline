@@ -12,8 +12,6 @@ Rarely, if the payload is relatively small and should be converted/processed bef
 
 This is an example for uploading binary file using multipart/fom-data
 
-BTW, API Gateway added supports for binary media type. (https://aws.amazon.com/about-aws/whats-new/2016/11/binary-data-now-supported-by-api-gateway/)
-
 ## Serverless offline http proxy
 
 ```
@@ -37,7 +35,3 @@ $ curl -v localhost:3000/dev/serverless-http/upload -F "file=@./image1.png"
 ```
 
 ![image1](https://raw.githubusercontent.com/kennyhyun/upload-to-serverless-offline/master/image2.png)
-
-## Enable API Gateway binary support
-
-TODO

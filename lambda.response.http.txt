@@ -1,0 +1,35 @@
+➜  upload-to-serverless-offline git:(master) ✗ http -v -f POST https://5jgki4qjn7.execute-api.us-east-1.amazonaws.com/dev/serverless-http/upload file@'./black.jpg'
+POST /dev/serverless-http/upload HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Content-Length: 319150
+Content-Type: multipart/form-data; boundary=b7d2729724d41544c1a65d7ad590ce75
+Host: 5jgki4qjn7.execute-api.us-east-1.amazonaws.com
+User-Agent: HTTPie/0.9.8
+
+
+
++-----------------------------------------+
+| NOTE: binary data not shown in terminal |
++-----------------------------------------+
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 24
+Content-Type: text/html; charset=utf-8
+Date: Sat, 25 Jul 2020 05:18:34 GMT
+Via: 1.1 eda9fe2763cea4a982a09ceb352512a6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dWzcFd7sK0cmu7pzoU0mKUlzyb0PnZwCGlZ7TaaPFVBdcTjp9tpcgA==
+X-Amz-Cf-Pop: SYD1-C1
+X-Amzn-Trace-Id: Root=1-5f1bc0a9-180421ccc800c588a9d21954;Sampled=0
+X-Cache: Miss from cloudfront
+etag: W/"18-mDkY7g4swk8sxWTNDD371Xw57PY"
+x-amz-apigw-id: QNsKkFxxIAMFlqg=
+x-amzn-Remapped-content-length: 24
+x-amzn-RequestId: 1a5026f9-81ce-41f7-9b35-2cff96906143
+x-powered-by: Express
+
+File uploaded; black.jpg
+
+➜  upload-to-serverless-offline git:(master) ✗

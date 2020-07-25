@@ -1,0 +1,34 @@
+➜  upload-to-serverless-offline git:(master) ✗ http -v -f POST https://5jgki4qjn7.execute-api.us-east-1.amazonaws.com/dev/serverless-express/upload file@'./black.jpg'
+POST /dev/serverless-express/upload HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Content-Length: 319150
+Content-Type: multipart/form-data; boundary=ee20fa0de97dacf686d98a57f39428ea
+Host: 5jgki4qjn7.execute-api.us-east-1.amazonaws.com
+User-Agent: HTTPie/0.9.8
+
+
+
++-----------------------------------------+
+| NOTE: binary data not shown in terminal |
++-----------------------------------------+
+
+HTTP/1.1 502 Bad Gateway
+Connection: keep-alive
+Content-Length: 36
+Content-Type: application/json
+Date: Sat, 25 Jul 2020 05:16:44 GMT
+Via: 1.1 7c4c2286abc7fc5145c880b21a28bb47.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gzrOdv-mDVLtHtBo3jqwZCHBXHIEK86THjl5v2CIVDjtOkNVZL9urg==
+X-Amz-Cf-Pop: SYD1-C1
+X-Cache: Error from cloudfront
+x-amz-apigw-id: QNr5UGoHoAMFm7g=
+x-amzn-ErrorType: InternalServerErrorException
+x-amzn-RequestId: 3748dc55-65d9-48b6-a236-7a305a1ca207
+
+{
+    "message": "Internal server error"
+}
+
+➜  upload-to-serverless-offline git:(master) ✗ 
