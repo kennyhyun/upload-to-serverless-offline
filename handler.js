@@ -1,6 +1,6 @@
 'use strict';
 
-const awsServerlessExpress = require('aws-serverless-express');
+const awsServerlessExpress = require('aws-serverless-express-binary');
 const serverlessHttp = require('serverless-http');
 const app = require('./app');
 
